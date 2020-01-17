@@ -6,7 +6,7 @@ This plugin currently provides 2 "ColorSelect" controls with which the user can 
 2. **PigColorSelect**: this one has a 32x32 pixels icon
   ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/pig_color_select.png)
 
-![Pig Controls](./buttons/ColorSelect/PigControls_ColorSelect_Screenshot.png)
+![Pig Controls](https://raw.githubusercontent.com/Echopraxium/PigControls/master/addons/pig_controls/buttons/ColorSelect/PigControls_ColorSelect_Screenshot.png)
 
 ## Installing from Github
 1. Download as a zip file from github. You should get a file named `pig_controls-master.zip`

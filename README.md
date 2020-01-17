@@ -1,28 +1,35 @@
-# PigMint Controls
-A plugin which provides custom controls (mainly for drawing apps) for [Godot Engine](https://godotengine.org/). 
-This plugin currently provides 2 custom "ColorSelect" controls meant to let the user select Foreground/Background colors
+# Pig Controls
+This [Godot](https://godotengine.org/) plugin which provides controls dedicated for drawing application. 
+This plugin currently provides 2 "ColorSelect" controls with which the user can select Foreground/Background colors
 1. **PigletColorSelect**: this one has a 24x24 pixels icon
-  ![](https://raw.githubusercontent.com/Echopraxium/pigmint_controls/master/buttons/ColorSelect/piglet_color_select.png)
+  ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/piglet_color_select.png)
 2. **PigColorSelect**: this one has a 32x32 pixels icon
-  ![](https://raw.githubusercontent.com/Echopraxium/pigmint_controls/master/buttons/ColorSelect/pig_color_select.png)
+  ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/pig_color_select.png)
 
-![PigMint Controls](./buttons/ColorSelect/PigMint_Color_Select_Screenshot.png)
+![Pig Controls](./buttons/ColorSelect/PigControls_ColorSelect_Screenshot.png)
 
-## How to install the Plugin?
-1. Download as a zip file from github. You should get a file named `pigmint_controls-master.zip`
+## Installing from Github
+1. Download as a zip file from github. You should get a file named `pig_controls-master.zip`
 2. Use Godot's FileSystem panel to create a **addons** folder at the root of your *Godot* project. 
 3. Use the **AssetLib** button (top center of Godot main window): select the zip then `Import`, `Open` and `Install`
-4. Now you have a `pigmint_controls-master` folder at the same level than `addons`. Rename it to `pigmint_controls` then move it under `addons` folder with a drag and drop. 
-5. You should now have the following: `my_godot_project/addons/pigmint_controls`.
-6. Check that the plugin is known by Godot: use the **AssetLib** button then `Plugins` and activate it (with the ComboList button in the `Status` column).
+4. Now you have a `pig_controls-master` folder at the same level than `addons`. Rename it to `pig_controls` then move it under `addons` folder with a drag and drop. 
+5. You should now have the following: `my_godot_project/addons/pig_controls`.
+6. Check that the plugin is correctly installed: use the **AssetLib** button then `Plugins` and activate it (with the ComboList button in the `Status` column).
+
+## Installing directly from inside Godot
+1. Use the **AssetLib** button (top center of Godot main window)
+2. Type **Pig** in the `Search` field to find more quickly the `PigCotrols` plugin
+3. Select it then `Download` and `Install`
+4. You should now have the following: `my_godot_project/addons/pig_controls`.
+5. Check that the plugin is correctly installed: use the **AssetLib** button then `Plugins` and activate it (with the ComboList button in the `Status` column).
 
 ## How to use a PigletColorSelect
 1. Create a 2D scene in your *Godot* project.
 2. Create a container (e.g. a HBoxContainer` or `VBoxContainer`) as a child of the 2D scene.
 3. Select this container then use the right mouse button (to open the context menu) and select `Add Child Node`
 4. In the `Search` field, input `Pig` to find more quickly the `PigletColorSelect` or `PigColorSelect` custom controls.
-    - PigletColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/pigmint_controls/master/buttons/ColorSelect/piglet_color_select_icon.png)
-    - PigColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/pigmint_controls/master/buttons/ColorSelect/pig_color_select_icon.png)
+    - PigletColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/piglet_color_select_icon.png)
+    - PigColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/pig_color_select_icon.png)
 5. Select one of these `ColorSelect` control and then `Create`
 
 ## Interactions

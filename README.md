@@ -2,9 +2,9 @@
 This [Godot](https://godotengine.org/) plugin which provides controls dedicated for drawing application. 
 This plugin currently provides 2 "ColorSelect" controls with which the user can select Foreground/Background colors
 1. **PigletColorSelect**: this one has a 24x24 pixels icon
-  ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/piglet_color_select.png)
+  ![](https://raw.githubusercontent.com/Echopraxium/PigControls/master/addons/pig_controls/buttons/ColorSelect/piglet_color_select.png)
 2. **PigColorSelect**: this one has a 32x32 pixels icon
-  ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/pig_color_select.png)
+  ![](https://raw.githubusercontent.com/Echopraxium/PigControls/master/addons/pig_controls/buttons/ColorSelect/pig_color_select.png)
 
 ![Pig Controls](https://raw.githubusercontent.com/Echopraxium/PigControls/master/addons/pig_controls/buttons/ColorSelect/PigControls_ColorSelect_Screenshot.png)
 
@@ -28,8 +28,8 @@ This plugin currently provides 2 "ColorSelect" controls with which the user can 
 2. Create a container (e.g. a HBoxContainer` or `VBoxContainer`) as a child of the 2D scene.
 3. Select this container then use the right mouse button (to open the context menu) and select `Add Child Node`
 4. In the `Search` field, input `Pig` to find more quickly the `PigletColorSelect` or `PigColorSelect` custom controls.
-    - PigletColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/piglet_color_select_icon.png)
-    - PigColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/pig_controls/master/buttons/ColorSelect/pig_color_select_icon.png)
+    - PigletColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/PigControls/master/addons/pig_controls/buttons/ColorSelect/piglet_color_select_icon.png)
+    - PigColorSelect: ![](https://raw.githubusercontent.com/Echopraxium/PigControls/master/addons/pig_controls/buttons/ColorSelect/pig_color_select_icon.png)
 5. Select one of these `ColorSelect` control and then `Create`
 
 ## Interactions
